@@ -22,7 +22,7 @@ while (keepPlaying) {
 
     const games = [
         'Guess the Number'
-    ]; 
+    ];
     
     //отображаем доступные игры
     const index = readLineSync.keyInSelect(games, 'Choose a game or exit:');
